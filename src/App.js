@@ -5,13 +5,18 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = ({
-      theme: themes.light
+      theme: themes.light,
+      toggleTheme: this.toggleTheme
+    })
+  }
+  toggleTheme = () => {
+    this.setState({
+      theme: this.state.theme === themes.dark ? themes.light : themes.dark
     })
   }
   render() {
     const { Provider } = themeContext
-    const theme = this.state
-    return <Provider value={theme}>
+    return <Provider value={this.state}>
       <Home />
     </Provider>
   }
