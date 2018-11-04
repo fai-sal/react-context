@@ -6,11 +6,10 @@ class Home extends React.Component {
     render() {
         const { Consumer } = themeContext
         return (
-            <React.Fragment>
+            <React.Fragment >
                 <Consumer >
                     {({ theme }) => (
-                        <div style={{ backgroundColor: theme.background, color: theme.foreground }}>
-                            <h1>Hello world</h1>
+                        <div style={{ ...styles, backgroundColor: theme.background, color: theme.foreground }}>
                         </div>
                     )}
                 </Consumer>
@@ -20,3 +19,11 @@ class Home extends React.Component {
     }
 }
 export default Home
+
+const styles = {
+    minHeight: '40vh',
+    minWidth: '60vw',
+    maxWidth: '60vw',
+    marginLeft: '20vw',
+    marginTop: '10vh',
+}
