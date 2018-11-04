@@ -10,6 +10,7 @@ class Home extends React.Component {
                 <Consumer >
                     {({ theme }) => (
                         <div style={{ ...styles, backgroundColor: theme.background, color: theme.foreground }}>
+                            <h1>Changing theme using context</h1>
                         </div>
                     )}
                 </Consumer>
@@ -26,4 +27,8 @@ const styles = {
     maxWidth: '60vw',
     marginLeft: '20vw',
     marginTop: '10vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontWeight:'100'
 }
