@@ -9,5 +9,5 @@
 3.  run `npm start`
 
 
-<!-- # Project Demo
-<a href="https://imgflip.com/gif/2mn6sh"><img src="https://imgflip.com/gif/2mn6sh" title="made at imgflip.com"/></a> -->
+ # Project Demo
+<a href="https://imgflip.com/gif/2mn6sh"><img src="https://imgflip.com/gif/2mn6sh" title="made at imgflip.com"/></a> 
