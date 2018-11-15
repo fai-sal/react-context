@@ -1,5 +1,7 @@
 # Context-Api
 
+##  Features
+      - Changing theme using context api
 
 # Build instruction
 1.  clone the repo
