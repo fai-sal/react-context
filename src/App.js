@@ -19,6 +19,7 @@ class App extends Component {
     return <Provider value={this.state}>
       <Home />
     </Provider>
+
   }
 }
 
